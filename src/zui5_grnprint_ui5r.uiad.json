@@ -1,0 +1,36 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "An SAP Fiori application.",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "GRN-Print"
+  },
+  "ui5AppDetails": {
+    "appId": "grnprint.grnprint1"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_F832AC18FA3F9F96D611D5803220407CF026B613_TM",
+    "semanticObject": "grn",
+    "action": "Display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_F832AC18FA3F9F96D611D5803220407CF026B613_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "GRN-Print",
+        "subtitle": "Balaji Multiflex PVT LTD",
+        "icon": "sap-icon://print"
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+@EndUserText.label: 'Service definition for Custom MIGO Print'
+define service ZS_MIGO_PRINT {
+  expose ZC_MIGO_HEADER as MigoHeader;
+  expose ZC_MIGO_ITEM   as MigoItem;
+  expose ZI_MATDOC_VH   as MaterialDocument;
+}
